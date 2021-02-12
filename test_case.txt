@@ -1,0 +1,584 @@
+
+ ██▓    ▄▄▄       ███▄ ▄███▓▓█████     ██▀███   ██▓███    ▄████
+▓██▒   ▒████▄    ▓██▒▀█▀ ██▒▓█   ▀    ▓██ ▒ ██▒▓██░  ██▒ ██▒ ▀█▒
+▒██░   ▒██  ▀█▄  ▓██    ▓██░▒███      ▓██ ░▄█ ▒▓██░ ██▓▒▒██░▄▄▄░
+▒██░   ░██▄▄▄▄██ ▒██    ▒██ ▒▓█  ▄    ▒██▀▀█▄  ▒██▄█▓▒ ▒░▓█  ██▓
+░██████▒▓█   ▓██▒▒██▒   ░██▒░▒████▒   ░██▓ ▒██▒▒██▒ ░  ░░▒▓███▀▒
+░ ▒░▓  ░▒▒   ▓▒█░░ ▒░   ░  ░░░ ▒░ ░   ░ ▒▓ ░▒▓░▒▓▒░ ░  ░ ░▒   ▒
+░ ░ ▒  ░ ▒   ▒▒ ░░  ░      ░ ░ ░  ░     ░▒ ░ ▒░░▒ ░       ░   ░
+  ░ ░    ░   ▒   ░      ░      ░        ░░   ░ ░░       ░ ░   ░
+    ░  ░     ░  ░       ░      ░  ░      ░                    ░
+
+Welcome to Lame RPG - the lamest role-playing game ever invented by mankind!
+
+It is very lame because it is made by Cen Han (2K). But even so, it is easy-to-play,
+feature-rich, and it can probably entertain you for a while!
+
+Ok, let's begin the journey! What's your name?
+
+Enter your name: CHamburr
+
+Hey CHamburr, you're ready to go! Check out the list of commands with "help".
+
+> help
+
+Lame RPG is the lamest role-playing game ever invented by mankind.
+Note: For more information on a specific command, use "help <command>".
+
+| Adventure
+| Always be adventurous!
+|
+| | adventures
+| | Get the list of adventures
+|
+| | adventure
+| | Go on an adventure!
+|
+| | cancel
+| | Cancel the adventure.
+|
+| | status
+| | Status of the adventure.
+
+| Battle
+| The battle begins...
+|
+| | battle
+| | The deadly battle.
+
+| Gambling
+| Gambling can be fun sometimes...
+|
+| | flip
+| | Flip the coin.
+|
+| | roll
+| | Roll a dice
+
+| General
+| Start the journey well...
+|
+| | help
+| | Need help? Use this command.
+|
+| | about
+| | Get some info about me.
+|
+| | exit
+| | Leave the game.
+
+| Profile
+| Commands related to your profile.
+|
+| | username
+| | Change your name.
+|
+| | profile
+| | See your profile.
+|
+| | level
+| | Get more information on levels.
+|
+| | inventory
+| | View your inventory.
+|
+| | equip
+| | Equip an item.
+|
+| | sell
+| | Sell an item.
+|
+| | upgrade
+| | Upgrade an item.
+
+> about
+
+Thank you for playing Lame RPG!
+As you would expect, only the lamest person can make such a game.
+Thus, this game is proudly created by Cen Han (2K). :D
+Note: If you like this game, you are probably pretty lame too!
+
+> adventures
+
+These are the adventures you can go on.
+Success rate depends on difficulty of the adventure and your xp.
+Use "adventure <number>" to begin on an adventure!
+
+| 1. Spider Cave
+| Everybody has to start somewhere!
+| Difficulty level: Very easy
+| Duration: 0:00:30
+| Success rate: 90%
+
+| 2. Troll Bridge
+| Venture to the bridge and defeat the monsters.
+| Difficulty level: Easy
+| Duration: 0:01:00
+| Success rate: 70%
+
+| 3. Dragon Canyon
+| Head over and slash some dragons!
+| Difficulty level: Medium
+| Duration: 0:01:30
+| Success rate: 50%
+
+| 4. A Night Alone
+| A night in the woods. Be sure to stay safe.
+| Difficulty level: Hard
+| Duration: 0:02:00
+| Success rate: 30%
+
+| 5. Last One Standing
+| Eliminate the rest and be the last one standing!
+| Difficulty level: Very hard
+| Duration: 0:02:30
+| Success rate: 10%
+
+> adventure 1
+
+Going on an adventure... Good luck!
+Check the status of the adventure and collect rewards with "status".
+
+> status
+
+The time left till completion of the adventure is 0:00:17.
+
+> status
+
+Congratulations! You gained 14 XP.
+You also got a new shield with defense 8.
+
+> adventure 5
+
+Going on an adventure... Good luck!
+Check the status of the adventure and collect rewards with "status".
+
+> adventure 5
+
+Oops! You are already on an adventure. Check with "status".
+
+> status
+
+RIP. You found nothing during the adventure.
+
+> adventure 6
+
+Oops! Invalid adventure number. Use "adventures" to see all of them.
+
+> status
+
+You are not on an adventure yet!
+
+> adventure 3
+
+Going on an adventure... Good luck!
+Check the status of the adventure and collect rewards with "status".
+
+> cancel
+
+Adventure has been cancelled. Be sure to start on a new one.
+
+> cancel
+
+You are not on an adventure. Don't try to cancel nothing!
+
+> flip heads 1
+
+Yay! It's heads! You won 1 coins.
+
+> flip tails 1
+
+Yay! It's tails! You won 1 coins.
+
+> flip heads 1
+
+Uh oh! It's tails! You lost 1 coins.
+
+> flip nowhere 1
+
+Either choose heads or tails!
+
+> flip heads 1000
+
+Choose an amount between 1 and 101 coins.
+
+> roll 6 1 1
+
+Uh oh! You lost 1 coins.
+
+> roll 3 2 1
+
+Yay! You won 2 coins.
+
+> roll 1 1 1
+
+Oops! The dice needs at least 2 sides.
+
+> roll 2 3 1
+
+Oops! That is not a valid tip.
+
+> roll 2 3
+
+Oops! You're using this command wrongly. Use "help roll" for usage information.
+
+> profile
+
+CHamburr
+Level: 0
+XP: 14
+Coins: 102
+Sword: Sword of Loyalty (attack 1)
+Shield: Shield of Glory (defense 1)
+
+> username CHamburger
+
+Changed your name.
+
+> profile
+
+CHamburger
+Level: 0
+XP: 14
+Coins: 102
+Sword: Sword of Loyalty (attack 1)
+Shield: Shield of Glory (defense 1)
+
+> inventory
+
+1. Sword of Loyalty (attack 1) (equipped)
+2. Shield of Glory (defense 1) (equipped)
+3. Shield of Justice (defense 8)
+
+> upgrade 3
+
+Upgraded the item and it costed you 16 coins.
+
+> equip 3
+
+Equipped the item.
+
+> equip 4
+
+Oops! Invalid item. View all items with "inventory".
+
+> sell 3
+
+Oops! You cannot sell an equipped item.
+
+> sell 2
+
+Sold the item for 3 coins.
+
+> inventory
+
+1. Sword of Loyalty (attack 1) (equipped)
+2. Shield of Justice (defense 9) (equipped)
+
+> profile
+
+CHamburger
+Level: 0
+XP: 14
+Coins: 89
+Sword: Sword of Loyalty (attack 1)
+Shield: Shield of Justice (defense 9)
+
+> level
+
+Level 1 - 25 XP
+Level 2 - 50 XP
+Level 3 - 75 XP
+Level 4 - 100 XP
+Level 5 - 200 XP
+Level 6 - 300 XP
+Level 7 - 400 XP
+Level 8 - 500 XP
+Level 9 - 750 XP
+Level 10 - 1000 XP
+
+> battle
+
+Oops! You're using this command wrongly. Use "help battle" for usage information.
+
+> help battle
+
+battle
+
+| Description:
+| The deadly battle begins... Choose a difficulty between 1 and 5.
+| Get coins when you succeed! The more difficult, the more coins you get.
+
+| Usage:
+| battle <difficulty>
+
+| Legend:
+| <> Required argument
+| [] Optional argument
+
+> battle 1
+
+Before the battle starts, you need to catch the boss.
+The boss will move every 5 times you move to a random location.
+You are represented "O" and the boss is represented by "X".
+Use [w] [a] [s] [d] to move.
+
+• • • • •
+• • X • O
+• • • • •
+• • • • •
+• • • • •
+
+Enter a move: a
+
+
+• • • • •
+• • X O •
+• • • • •
+• • • • •
+• • • • •
+
+Enter a move: a
+
+You caught the boss!
+
+THE DEADLY BATTLE BEGINS...
+
+Boss HP: 100
+Player HP: 100
+
+The boss attacked and dealt 15 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 12 damage.
+
+Boss HP: 88
+Player HP: 95
+
+The boss attacked and dealt 16 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 15 damage.
+
+Boss HP: 73
+Player HP: 90
+
+The boss attacked and dealt 19 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 12 damage.
+
+Boss HP: 61
+Player HP: 85
+
+The boss attacked and dealt 20 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 14 damage.
+
+Boss HP: 47
+Player HP: 80
+
+The boss attacked and dealt 16 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 10 damage.
+
+Boss HP: 37
+Player HP: 75
+
+The boss attacked and dealt 17 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 15 damage.
+
+Boss HP: 22
+Player HP: 70
+
+The boss attacked and dealt 19 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 10 damage.
+
+Boss HP: 12
+Player HP: 65
+
+The boss attacked and dealt 19 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 13 damage.
+
+The boss was defeated!
+You received 18 XP and 20 coins.
+
+> battle 6
+
+Please choose a difficulty between 1 and 5.
+
+> battle 5
+
+Before the battle starts, you need to catch the boss.
+The boss will move every 1 times you move to a random location.
+You are represented "O" and the boss is represented by "X".
+Use [w] [a] [s] [d] to move.
+
+• • • • •
+• • • • O
+• • • • •
+• • • • •
+• • • X •
+
+Enter a move: d
+
+Uh oh, you bumped into the wall. Battle ends...
+
+> battle 5
+
+Before the battle starts, you need to catch the boss.
+The boss will move every 1 times you move to a random location.
+You are represented "O" and the boss is represented by "X".
+Use [w] [a] [s] [d] to move.
+
+• • • O •
+• • • • •
+• • • • •
+• X • • •
+• • • • •
+
+Enter a move: s
+
+
+• • • • •
+• • • O •
+• • • • •
+• X • • •
+• • • • •
+
+The boss is moving...
+
+• • • • •
+• • • O •
+• X • • •
+• • • • •
+• • • • •
+
+Enter a move: a
+
+
+• • • • •
+• • O • •
+• X • • •
+• • • • •
+• • • • •
+
+The boss is moving...
+
+• • • • •
+• • O • •
+X • • • •
+• • • • •
+• • • • •
+
+Enter a move: s
+
+
+• • • • •
+• • • • •
+X • O • •
+• • • • •
+• • • • •
+
+The boss is moving...
+
+• • • • •
+• • • • •
+• • O • •
+• • • • •
+X • • • •
+
+Enter a move: a
+
+
+• • • • •
+• • • • •
+• O • • •
+• • • • •
+X • • • •
+
+The boss is moving...
+
+• • • • •
+• X • • •
+• O • • •
+• • • • •
+• • • • •
+
+Enter a move: w
+
+You caught the boss!
+
+THE DEADLY BATTLE BEGINS...
+
+Boss HP: 500
+Player HP: 100
+
+The boss attacked and dealt 100 damage.
+Because of your shield, effective damage was 53.
+Press any key to attack...
+You dealt 13 damage.
+
+Boss HP: 487
+Player HP: 47
+
+The boss attacked and dealt 93 damage.
+Because of your shield, effective damage was 6.
+Press any key to attack...
+You dealt 15 damage.
+
+Boss HP: 472
+Player HP: 41
+
+The boss attacked and dealt 90 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 10 damage.
+
+Boss HP: 462
+Player HP: 36
+
+The boss attacked and dealt 100 damage.
+Because of your shield, effective damage was 18.
+Press any key to attack...
+You dealt 13 damage.
+
+Boss HP: 449
+Player HP: 18
+
+The boss attacked and dealt 83 damage.
+Because of your shield, effective damage was 5.
+Press any key to attack...
+You dealt 15 damage.
+
+Boss HP: 434
+Player HP: 13
+
+The boss attacked and dealt 84 damage.
+Because of your shield, effective damage was 21.
+You were defeated! Better luck next time...
+
+> profile
+
+CHamburger
+Level: 0
+XP: 32
+Coins: 109
+Sword: Sword of Loyalty (attack 1)
+Shield: Shield of Justice (defense 9)
+
+> that's cool
+
+Oops! The command was not found. Use "help" to view all commands.
+
+> exit
+
+Goodbye! See you next time...
