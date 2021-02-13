@@ -65,7 +65,7 @@ class Battle(Module):
             while not end:
                 ctx.print("\nEnter a move: ", end="")
                 try:
-                    movement = getch().decode("utf-8").lower()
+                    movement = getch().lower()
                 except UnicodeDecodeError:
                     return ctx.print(
                         "Uh oh, you entered an invalid character. Battle ends..."
